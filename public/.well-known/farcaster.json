@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Daily Quest",
+    "subtitle": "Built with Zara",
+    "description": "Daily Quest is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://e940f9e8-11ba-4538-85e2-591be0ab0759.vercel.app",
+    "splashImageUrl": "https://dummyimage.com/200x200/0a0b0d/ffffff.png&text=Splash",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Hero",
+    "tagline": "Daily Quest",
+    "screenshotUrls": [
+      "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Shot1",
+      "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Shot2"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://e940f9e8-11ba-4538-85e2-591be0ab0759.vercel.app/api/webhook"
+  }
+}

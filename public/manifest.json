@@ -1,0 +1,14 @@
+{
+  "name": "Daily Quest",
+  "description": "Daily Quest is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://e940f9e8-11ba-4538-85e2-591be0ab0759.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Daily Quest",
+      "description": "Daily Quest is a Base Mini App built with Zara.",
+      "url": "https://e940f9e8-11ba-4538-85e2-591be0ab0759.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
