@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* BASE Theme - Dark blue with Base blue accents */
+  --color-bg: hsl(220, 40%, 8%);
+  --color-fg: hsl(210, 40%, 98%);
+  --color-surface: hsl(220, 35%, 12%);
+  --color-primary: #0052ff;
+  --color-accent: hsl(145, 63%, 42%);
+  --color-base: hsl(220, 100%, 50%);
+  --color-base-light: hsl(220, 100%, 60%);
+}
+
+@layer base {
+  * {
+    @apply border-gray-700;
+  }
+  
+  body {
+    @apply bg-bg text-fg antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply rounded-lg;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-600 transition-all duration-200 shadow-lg hover:shadow-glow;
+  }
+
+  .btn-secondary {
+    @apply glass-card px-6 py-3 rounded-lg font-medium hover:bg-opacity-20 transition-all duration-200;
+  }
+
+  .achievement-badge {
+    @apply relative rounded-full p-1;
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #ff9500 100%);
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.4);
+  }
+
+  .progress-bar {
+    @apply h-2 rounded-full overflow-hidden;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-300;
+    background: linear-gradient(90deg, #0052ff 0%, #00d4ff 100%);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #0052ff 0%, #00d4ff 100%);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 10px rgba(0, 82, 255, 0.5);
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "accountAssociation": {
+    "header": "Verify your Farcaster account to mint achievements and join challenges in Daily Quest.",
+    "payload": {
+      "fidelity": "FARCaster",
+      "domain": "dailyquest.xyz",
+      "timestamp": "2024-01-01T00:00:00Z"
+    }
+  },
+  "frame": {
+    "version": "next",
+    "name": "Daily Quest",
+    "iconUrl": "https://dailyquest.xyz/icon-256x256.png",
+    "splashImageUrl": "https://dailyquest.xyz/splash-200x200.png",
+    "splashBackgroundColor": "#0a0e1a",
+    "homeUrl": "https://dailyquest.xyz/app",
+    "webhookUrl": "https://dailyquest.xyz/api/farcaster-webhook"
+  }
+}
